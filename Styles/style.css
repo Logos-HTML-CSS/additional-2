@@ -1,68 +1,37 @@
-@import url(reset.css);
-
-.block {
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.red {
+.block {
   height: 20vh;
   width: 300px;
-  background-color: red;
   transition-duration: 0.3s;
 }
 
-.red:hover {
+.block:hover {
   height: 30vh;
   cursor: pointer;
+}
+
+.red {
+  background-color: red;
 }
 
 .green {
-  height: 20vh;
-  width: 300px;
   background-color: green;
-  transition-duration: 0.3s;
-}
-
-.green:hover {
-  height: 30vh;
-  cursor: pointer;
 }
 
 .blue {
-  height: 20vh;
-  width: 300px;
   background-color: blue;
-  transition-duration: 0.3s;
-}
-
-.blue:hover {
-  height: 30vh;
-  cursor: pointer;
 }
 
 .yellow {
-  height: 20vh;
-  width: 300px;
   background-color: yellow;
-  transition-duration: 0.3s;
-}
-
-.yellow:hover {
-  height: 30vh;
-  cursor: pointer;
 }
 
 .orange {
-  height: 20vh;
-  width: 300px;
   background-color: orange;
-  transition-duration: 0.3s;
-}
-
-.orange:hover {
-  height: 30vh;
-  cursor: pointer;
 }
