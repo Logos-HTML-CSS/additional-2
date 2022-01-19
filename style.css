@@ -1,32 +1,38 @@
-.block {
+.container {
     margin-left: auto;
     margin-right: auto;
-    width: 200px
+    width: 200px;
 }
-.red:hover, .green:hover, .blue:hover, .yellow:hover, .orange:hover {
-    height: 30vh;
-}
+
 .red {
-    height: 20vh;
     background: red;
 }
+
 .green {
-    height: 20vh;
     background: green;
 }
+
 .blue {
-    height: 20vh;
     background: blue;
 }
+
 .yellow {
-    height: 20vh;
     background: yellow;
 }
+
 .orange {
-    height: 20vh;
     background: orange;
 }
+
 * {
     padding: 0px;
     margin: 0px;
+}
+
+.box {
+    height: 20vh;
+}
+
+.box:hover {
+    height: 30vh;
 }
