@@ -1,0 +1,38 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.red {
+    background: red;
+}
+
+.green {
+    background: green;
+}
+
+.blue {
+    background: blue;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.orange {
+    background: orange;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.box {
+    height: 20vh;
+}
+
+.box:hover {
+    height: 30vh;
+}
